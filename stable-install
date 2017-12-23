@@ -23,7 +23,7 @@ SCRIPT_COMMIT_SHA=11aa13e
 #   * edge
 #   * test
 #   * experimental
-DEFAULT_CHANNEL_VALUE="stable"
+DEFAULT_CHANNEL_VALUE="edge"
 if [ -z "$CHANNEL" ]; then
 	CHANNEL=$DEFAULT_CHANNEL_VALUE
 fi
